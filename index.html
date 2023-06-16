@@ -6,13 +6,19 @@
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Yuri G" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Coin flip!</title>
   </head>
   <body>
@@ -26,15 +32,18 @@
       </header>
       <main class="mdl-layout__content">
         <h1><b>Click the button to flip the coin.</b></h1>
-        <h2><i>50/50 chance for it to land on heads or tails!</i></h2>
-        <br>
+        <h2><i>50/50 chance for it to land on red or yellow.</i></h2>
+        <br />
+        <div id="coin"></div>
         <!--Colored raised button-->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="coinFlip()">Flip coin
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="coinFlip()"
+        >
+          Flip coin
         </button>
-        <br>
-        <div id="answer">
-          <div id="coin-results"></div>
-        </div>
+        <br />
+        <div id="coin-results"></div>
       </main>
     </div>
   </body>

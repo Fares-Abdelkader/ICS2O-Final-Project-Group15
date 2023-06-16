@@ -4,7 +4,7 @@
 
 [![Deploy Pages](https://github.com/MTHS-ICS2O-2-2022/ICS2O-Final-Project-Group15/workflows/Deploy%20Pages/badge.svg)](https://github.com/MTHS-ICS2O-2-2022/ICS2O-Final-Project-Group15/actions)
 
-This site can be found at: [https://MTHS-ICS2O-2-2022/ICS2O-Final-Project-Group15](https:/MTHS-ICS2O-2-2022/ICS2O-Final-Project-Group15)
+This site can be found at: [https://mths-ics2o-2-2022.github.io/ICS2O-Final-Project-Group15](https://mths-ics2o-2-2022.github.io/ICS2O-Final-Project-Group15)
 
 ---
 
