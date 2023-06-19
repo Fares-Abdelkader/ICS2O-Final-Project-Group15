@@ -7,6 +7,6 @@
 "use strict"
 
 function coinFlip() {
-    // this function shows if the user got heads or tails after flipping a coin
-    
+    // this function shows the outcome of flipping the coin
+    let 
 }
